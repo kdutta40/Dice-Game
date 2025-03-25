@@ -1,0 +1,81 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.bottom{
+    width: 100%;
+
+}
+.score h1{
+    font-size: 100px;
+    font-weight: 500;
+
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.num{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:48px ;
+}
+.bottom p{
+    font-size: 24px;
+    
+}
+.selectNumber{
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+    font-size: large;
+}
+.numberNotEntered
+{
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+    font-size: large;
+    color: red;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:36px;
+    gap: 24px;
+}
+.btns button{
+    width: 220px;
+    height: 44px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btns button:hover{
+    background-color: rgb(131, 129, 129);
+}
+.resetBtn{
+    background-color: black;
+    color: white;
+    
+}
+.dice{
+    height: 254px;
+}
